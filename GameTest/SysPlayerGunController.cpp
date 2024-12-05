@@ -15,7 +15,7 @@
 #include "CmpShapePoint.h"
 #include "Gamepad.h"
 
-static bool IsShooting(const Gamepad& controller) {
+static bool IsShooting(const GLFWgamepadstate& controller) {
 	return controller.buttons[GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER];
 }
 static float2 randRange(float2 min, float2 max) {

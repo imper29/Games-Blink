@@ -206,5 +206,3 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, 	_In_opt_ HINSTANCE hPrevInstanc
 	// And we are done.
 	return 0;
 }
-
-

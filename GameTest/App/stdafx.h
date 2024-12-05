@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "targetver.h"
+#include "../targetver.h"
 
 #include <stdio.h>
 #include <tchar.h>
@@ -13,6 +13,6 @@
 
 
 // TODO: reference additional headers your program requires here
-#include "float2.h"
-#include "float3.h"
-#include "float3x3.h"
+#include "../float2.h"
+#include "../float3.h"
+#include "../float3x3.h"
