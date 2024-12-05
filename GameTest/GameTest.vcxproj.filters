@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image\stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRegistry.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDrawAabbs.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDrawCircles.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDrawPoints.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDrawText.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPhysicsCollisionCollector.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPhysicsCollisionResolver.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysButtonHandler.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCameraFree.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysButtonColorizer.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPhysics.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPhysicsBodyMover.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysSelfDestruct.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPhysicsGravity.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scenes\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDeathTriggerHandler.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerMovementController.cpp">
+      <Filter>Systems\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerCharacterSpawner.cpp">
+      <Filter>Systems\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCameraFollowPlayers.cpp">
+      <Filter>Systems\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerBlinkController.cpp">
+      <Filter>Systems\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerGunController.cpp">
+      <Filter>Systems\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerBlinkParticles.cpp">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerParticles.cpp">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerAimLineRenderer.cpp">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysTimedEventHandler.cpp">
+      <Filter>Systems\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerScoreRenderer.cpp">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPlayerGunCooldownRenderer.cpp">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuControls.cpp">
+      <Filter>Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMain.cpp">
+      <Filter>Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWinner.cpp">
+      <Filter>Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level5.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level6.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level7.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level8.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamepad.cpp">
+      <Filter>Scenes\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="float2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="float3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="float3x3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRegistry.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityGroup.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityComponent.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="float4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpMaterial.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpVelocity.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpMass.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpCollider.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpShapeAabb.h">
+      <Filter>Components\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpShapeCircle.h">
+      <Filter>Components\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpColor.h">
+      <Filter>Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpText.h">
+      <Filter>Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpOverlay.h">
+      <Filter>Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpShapePoint.h">
+      <Filter>Components\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDrawAabbs.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDrawCircles.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDrawPoints.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDrawText.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPhysicsCollisionCollector.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPhysicsCollisionResolver.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpButton.h">
+      <Filter>Components\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPosition.h">
+      <Filter>Components\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysButtonHandler.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCameraFree.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysButtonColorizer.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPhysics.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPhysicsBodyMover.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpSelfDestructTime.h">
+      <Filter>Components\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysSelfDestruct.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPhysicsGravity.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scenes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem.h">
+      <Filter>Scenes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpDeath.h">
+      <Filter>Components\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDeathTriggerHandler.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerSpawnpoint.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayer.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerBlink.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerCharacter.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerMovementController.h">
+      <Filter>Systems\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerCharacterSpawner.h">
+      <Filter>Systems\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCameraFollowPlayers.h">
+      <Filter>Systems\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerBlinkController.h">
+      <Filter>Systems\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerGunController.h">
+      <Filter>Systems\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpGravityScale.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerBullet.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerBlinkParticles.h">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerParticles.h">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerAimLineRenderer.h">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpTimedEvent.h">
+      <Filter>Components\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SysTimedEventHandler.h">
+      <Filter>Systems\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerScoreRenderer.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPlayerGunCooldownRenderer.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerScoreRenderer.h">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPlayerGunCooldownRenderer.h">
+      <Filter>Systems\Player\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuControls.h">
+      <Filter>Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMain.h">
+      <Filter>Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWinner.h">
+      <Filter>Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level5.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level6.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level7.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level8.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamepad.h">
+      <Filter>Scenes\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{61cfc19b-c57e-4021-b530-bac172fcba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{f318918d-bb9f-4402-ae1c-4f72186d16f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{e7df5dbb-e6f2-4b2b-b3da-a8677ed8ec3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{4ae2a84e-8bf7-4267-bdc3-562ec47eb587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{9dce48f5-11cb-4c17-bf0f-0f5740c3bd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{e00cf070-9ad2-4658-8a58-0ff0fa58c3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Physics">
+      <UniqueIdentifier>{2da50c42-4010-4683-b56b-947a853eb061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Shapes">
+      <UniqueIdentifier>{1f113411-fb2e-42f1-9812-c04afa9b43aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendering">
+      <UniqueIdentifier>{23787bcb-5e81-4e61-9b3c-e0f06ffe8ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Rendering">
+      <UniqueIdentifier>{df04b7e1-13ac-4688-a4d0-b8c4ef8f3cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Physics">
+      <UniqueIdentifier>{0bc7246e-d282-40cd-9205-7a05fea4d88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{90093c50-dcf8-4979-98e9-32be3af55ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Misc">
+      <UniqueIdentifier>{053c2b78-e192-4f7c-adc5-fc2b3a66e4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Misc">
+      <UniqueIdentifier>{9fc0f4e0-5194-4437-bfb7-27c2e3a215c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Player">
+      <UniqueIdentifier>{b31503f0-d674-4298-a056-74e218e3677c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Player">
+      <UniqueIdentifier>{413cbaf2-d83b-44c0-b0fd-88fbbebd4e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Player\Rendering">
+      <UniqueIdentifier>{5f45e41c-05a2-42c4-9e6d-26331129490f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sounds">
+      <UniqueIdentifier>{e79206d1-e267-4a89-84be-554b9aa149d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Music">
+      <UniqueIdentifier>{ff210310-421e-4ddf-a888-d300f878fcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Menus">
+      <UniqueIdentifier>{b5b933ba-fec0-47dc-b44d-7836722009b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Core">
+      <UniqueIdentifier>{08f20029-f660-43cf-b1a3-5c05d6549d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Levels">
+      <UniqueIdentifier>{a0dbea06-505c-467b-9a45-355049b0ad38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>API</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\mixkit-body-impact-falling-into-the-sand-2498.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-handgun-click-1660.mp3">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-sci-fi-plasma-gun-power-up-1679.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-short-laser-gun-shot-1670.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-small-metallic-sci-fi-drop-888.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-handgun-click-1660-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-laser-game-whip-1514.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-short-laser-gun-shot-1670-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-body-impact-falling-into-the-sand-2498-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-body-impact-falling-into-the-sand-2498-cut-tiny.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-laser-game-whip-1514-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-sci-fi-plasma-gun-power-up-1679-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-fast-wall-clock-ticking-1063.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\mixkit-fast-wall-clock-ticking-1063-cut.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Music\cheer-up-174791.wav">
+      <Filter>Music</Filter>
+    </Media>
+    <Media Include="Music\energetic-indie-rock-upbeat-132700.wav">
+      <Filter>Music</Filter>
+    </Media>
+    <Media Include="Music\having-fun-179821.wav">
+      <Filter>Music</Filter>
+    </Media>
+    <Media Include="Music\letx27s-rock-165609.wav">
+      <Filter>Music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
